@@ -162,10 +162,7 @@ btn1.addEventListener("click",()=>{
     sorc4.style.display ='flex'
     sorc5.style.display ='flex'
     sorc1.style.width='380px'
-    // sorc2.style.width='420px'
-    // sorc3.style.display ='420px'
-    // sorc4.style.display ='420px'
-    // sorc5.style.display ='420px'
+
     
 
 })
@@ -207,6 +204,18 @@ btn5.addEventListener("click",()=>{
     sorc5.style.display ='flex'
 })
 
+
+const dinner1=document.querySelector("#dinner1");
+const dinner2=document.querySelector("#dinner2");
+
+
+
+dinner1.addEventListener("click",()=>{
+    dinner2.style.opacity='1'
+})
+dinner1.addEventListener("mouseup",()=>{
+    dinner2.style.opacity='0'
+})
 
 
 
